@@ -1,0 +1,384 @@
+.navbar{
+    padding: 10px;
+}
+.lista-users{
+    width: 75%;
+}
+
+/* .column-search{
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 10px;
+
+} */
+.form-control{
+    width: 75%;
+    float: left;
+}
+
+.btn-outline-success{
+    width: 25%;
+    float: left;
+}
+
+.chat-container {
+    height: 300px;
+    overflow-y: scroll;
+    display: flex!important;
+
+}
+
+h2{
+    color:#fe57b1;
+}
+    input[type="submit"] {
+    background-color: #fe57b1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border:solid 1px #fe57b1;
+}
+
+input[type="submit"]:hover {
+    background-color:white;
+    border: 1px solid #fe57b1;
+    color:#fe57b1;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.chat-container {
+    flex-direction: column;
+    background-color: #FEEEF7;
+    display: inline-block;
+    padding: 15px;
+    overflow-x: hidden;
+}
+
+.primer:nth-child(1) {
+    order: 1;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #FEEEF7;
+}
+
+.chat {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    float: left;
+    width: 70%;
+    height: 92vh;   
+    overflow-x: hidden; 
+
+}
+
+.burbujas{
+    background-color:#FEEEF7 ;
+    border: 1px solid #fe57b1;        
+}
+
+.lista-amigos,
+.chat {
+    background-color: #FEEEF7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.lista-amigos{
+    float: left;
+    margin: 0px;
+    width: 30%;  
+    height: 92vh;    
+}
+h2 {
+    color: #fe57b1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #fe57b1;
+    background-color: #FEEEF7;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fe57b1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+input[type="submit"]:hover {
+    background-color: #CB458D;
+}
+textarea{
+    float: left;
+    width: 86%;
+}
+
+.sent-message {
+    text-align: right;
+    margin-left: auto!important; /* Para centrar el mensaje a la derecha */
+
+}
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #007bff; /* Color del pulgar de la barra de desplazamiento */
+    border-radius: 5px; /* Borde redondeado del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0056b3; /* Cambiar el color al pasar el cursor sobre el pulgar */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color del fondo de la barra de desplazamiento */
+}
+
+.chat-container{
+    background-color: #FCF5F6;
+    border: 3px solid #fe57b1;
+
+}
+.chat-container .comentario{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #fe57b1;
+
+}
+
+.chat-container .comentario p{
+    margin: 0 0 10px 0;
+}
+
+
+.burbuja {
+    border: 1px solid #fe57b1;
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #222;
+    border-radius: 3px;
+    margin-left: 20px;
+    max-width: 50%;
+
+}
+
+.burbuja:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: -15px; /* Cambia la dirección a la derecha para invertir el triángulo */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 15px solid #fe57b1; /* Cambia el lado del triángulo para invertirlo */
+
+}
+.received-message {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #222;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.received-message:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: -35px; /* Ajusta la posición a la izquierda */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 15px solid #fe57b1;
+    border-left: 0px;
+    left: -15px;
+
+}
+td{
+    text-align: center;
+}
+
+body {
+    background-size: cover; /* Ajusta el tamaño de la imagen al botón */
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    flex-flow: column;
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    z-index: 10;
+
+}
+
+
+
+/* Style for form container */
+.form-container {
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    z-index: 10;
+    text-align: center;
+
+
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for error messages */
+
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #fe57b1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border:solid 1px #fe57b1;
+}
+
+input[type="submit"]:hover {
+    background-color:white;
+    border: 1px solid #fe57b1;
+    color:#fe57b1;
+}
+
+
+body {
+    background-size: cover; /* Ajusta el tamaño de la imagen al botón */
+    background-position: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    flex-flow: column;
+
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    z-index: 10;
+    margin-top: 0px;
+
+
+}
+
+/* Style for form container */
+.form-container {
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    z-index: 10;
+
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #fe57b1;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #CB458D;
+}
